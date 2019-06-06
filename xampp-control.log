@@ -1,0 +1,37 @@
+6:57:35 PM  [main] 	Initializing Control Panel
+6:57:35 PM  [main] 	Windows Version:  Enterprise  64-bit
+6:57:35 PM  [main] 	XAMPP Version: 7.3.6
+6:57:35 PM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Mar 7th 2019 ]
+6:57:35 PM  [main] 	You are not running with administrator rights! This will work for
+6:57:35 PM  [main] 	most application stuff but whenever you do something with services
+6:57:35 PM  [main] 	there will be a security dialogue or things will break! So think 
+6:57:35 PM  [main] 	about running this application with administrator rights!
+6:57:35 PM  [main] 	XAMPP Installation Directory: "e:\xampp\"
+6:57:35 PM  [main] 	Checking for prerequisites
+6:57:38 PM  [main] 	All prerequisites found
+6:57:38 PM  [main] 	Initializing Modules
+6:57:38 PM  [main] 	Starting Check-Timer
+6:57:38 PM  [main] 	Control Panel Ready
+6:57:40 PM  [Apache] 	Attempting to start Apache app...
+6:57:40 PM  [Apache] 	Status change detected: running
+6:57:41 PM  [mysql] 	Attempting to start MySQL app...
+6:57:42 PM  [mysql] 	Status change detected: running
+8:32:55 PM  [Apache] 	Status change detected: stopped
+8:32:56 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+8:32:56 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+8:32:56 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+8:32:56 PM  [Apache] 	Press the Logs button to view error logs and check
+8:32:56 PM  [Apache] 	the Windows Event Viewer for more clues
+8:32:56 PM  [Apache] 	If you need more help, copy and post this
+8:32:56 PM  [Apache] 	entire log window on the forums
+8:32:56 PM  [mysql] 	Status change detected: stopped
+8:32:56 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:32:56 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:32:56 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:32:56 PM  [mysql] 	Press the Logs button to view error logs and check
+8:32:56 PM  [mysql] 	the Windows Event Viewer for more clues
+8:32:56 PM  [mysql] 	If you need more help, copy and post this
+8:32:56 PM  [mysql] 	entire log window on the forums
+8:32:59 PM  [main] 	Deinitializing Modules
+8:32:59 PM  [main] 	Deinitializing Control Panel
+
