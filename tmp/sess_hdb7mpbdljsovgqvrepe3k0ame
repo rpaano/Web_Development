@@ -1,0 +1,177 @@
+ PMA_token |s:16:"{V/pRw(!lRM|W;Y]";browser_access_time|a:1:{s:7:"default";i:1559843624;}relation|a:1:{i:1;a:41:{s:11:"PMA_VERSION";s:7:"4.9.0.1";s:7:"relwork";b:1;s:11:"displaywork";b:1;s:12:"bookmarkwork";b:1;s:7:"pdfwork";b:1;s:8:"commwork";b:1;s:8:"mimework";b:1;s:11:"historywork";b:1;s:10:"recentwork";b:1;s:12:"favoritework";b:1;s:11:"uiprefswork";b:1;s:12:"trackingwork";b:1;s:14:"userconfigwork";b:1;s:9:"menuswork";b:1;s:7:"navwork";b:1;s:17:"savedsearcheswork";b:1;s:18:"centralcolumnswork";b:1;s:20:"designersettingswork";b:1;s:19:"exporttemplateswork";b:1;s:8:"allworks";b:1;s:4:"user";s:4:"root";s:2:"db";s:10:"phpmyadmin";s:8:"bookmark";s:13:"pma__bookmark";s:15:"central_columns";s:20:"pma__central_columns";s:11:"column_info";s:16:"pma__column_info";s:17:"designer_settings";s:22:"pma__designer_settings";s:16:"export_templates";s:21:"pma__export_templates";s:8:"favorite";s:13:"pma__favorite";s:7:"history";s:12:"pma__history";s:16:"navigationhiding";s:21:"pma__navigationhiding";s:9:"pdf_pages";s:14:"pma__pdf_pages";s:6:"recent";s:11:"pma__recent";s:8:"relation";s:13:"pma__relation";s:13:"savedsearches";s:18:"pma__savedsearches";s:12:"table_coords";s:17:"pma__table_coords";s:10:"table_info";s:15:"pma__table_info";s:13:"table_uiprefs";s:18:"pma__table_uiprefs";s:8:"tracking";s:13:"pma__tracking";s:10:"userconfig";s:15:"pma__userconfig";s:10:"usergroups";s:15:"pma__usergroups";s:5:"users";s:10:"pma__users";}}two_factor_check|b:1;cache|a:3:{s:8:"server_1";a:3:{s:15:"userprefs_mtime";s:10:"1559843574";s:14:"userprefs_type";s:2:"db";s:12:"config_mtime";i:1559664376;}s:13:"server_1_root";a:18:{s:14:"mysql_cur_user";s:14:"root@localhost";s:12:"is_grantuser";b:1;s:13:"is_createuser";b:1;s:12:"is_superuser";b:1;s:17:"is_create_db_priv";b:1;s:14:"is_reload_priv";b:1;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:1:{i:0;s:1:"*";}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:1;s:10:"table_priv";b:1;s:8:"col_priv";b:1;s:7:"db_priv";b:1;s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:9:"Databases";s:3:"sql";s:3:"SQL";s:6:"status";s:6:"Status";s:6:"rights";s:5:"Users";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:8:"settings";s:8:"Settings";s:6:"binlog";s:10:"Binary log";s:11:"replication";s:11:"Replication";s:4:"vars";s:9:"Variables";s:7:"charset";s:8:"Charsets";s:7:"plugins";s:7:"Plugins";s:6:"engine";s:7:"Engines";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Search";s:5:"query";s:5:"Query";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:9:"operation";s:10:"Operations";s:10:"privileges";s:10:"Privileges";s:8:"routines";s:8:"Routines";s:6:"events";s:6:"Events";s:8:"triggers";s:8:"Triggers";s:8:"tracking";s:8:"Tracking";s:8:"designer";s:8:"Designer";s:15:"central_columns";s:15:"Central columns";}s:19:"profiling_supported";b:1;s:17:"menu-levels-table";a:11:{s:6:"browse";s:6:"Browse";s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Search";s:6:"insert";s:6:"Insert";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:10:"privileges";s:10:"Privileges";s:9:"operation";s:10:"Operations";s:8:"tracking";s:8:"Tracking";s:8:"triggers";s:8:"Triggers";}}s:13:"version_check";a:2:{s:8:"response";s:252:"{
+    "date": "2019-06-04", 
+    "version": "4.9.0.1", 
+    "releases": [
+        {
+            "date": "2019-06-04", 
+            "php_versions": ">=5.5,<7.3", 
+            "version": "4.9.0.1", 
+            "mysql_versions": ">=5.5"
+        }
+    ]
+}";s:9:"timestamp";i:1559842851;}}git_location|N;is_git_revision|b:0;tmpval|a:16:{s:15:"favorite_tables";a:1:{i:1;a:0:{}}s:13:"recent_tables";a:1:{i:1;a:1:{i:0;a:2:{s:2:"db";s:8:"crime_db";s:5:"table";s:5:"admin";}}}s:5:"query";a:10:{s:32:"65cc52af3a57bea57b002e22b4d27edc";a:8:{s:3:"sql";s:29:"/*!40101 SET NAMES utf8mb4 */";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"1e75055f1d72b3bc4952822c02d9428b";a:8:{s:3:"sql";s:456:"--
+-- Database: `case_db`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `admin_id` int(15) NOT NULL,
+  `date_time` varchar(25) NOT NULL,
+  `brgycasenumber` varchar(40) NOT NULL,
+  `complainant` varchar(40) NOT NULL,
+  `respondent` varchar(40) NOT NULL,
+  `natureofcase` varchar(40) NOT NULL,
+  `disposition_remarks` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"2553c69cd4a9d26a4ae287e2cf5de365";a:8:{s:3:"sql";s:1633:"--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`admin_id`, `date_time`, `brgycasenumber`, `complainant`, `respondent`, `natureofcase`, `disposition_remarks`) VALUES
+(67, '2018-October-23 02:44 pm', '000001', 'Justin Jovert Aguillon', 'Cynthia Masculino', 'Criminal', 'Conciliation'),
+(68, '2018-October-22 04:01 pm', '000002', 'Allan Waga', 'Cynthia Masculino', 'Criminal', 'Mediation'),
+(69, '2018-October-23 12:26 pm', '000003', 'Romel Paano', 'Nino Paano', 'Miscellaneous ', 'Mediation'),
+(70, '2018-October-23 12:42 pm', '000004', 'Allan Waga', 'Cynthai Masculino', 'Miscellaneous ', 'Dismissed'),
+(71, '2018-October-23 08:42 pm', '000005', 'Julius Urot', 'Cynthia Masculino', 'Miscellaneous ', 'Withdrawn'),
+(72, '2018-October-23 12:56 pm', '000006', 'Allan Waga', 'Miami Nights', 'Criminal', 'Mediation'),
+(73, '2018-October-23 01:00 pm', '000007', 'Romel Paano', 'Cynthia Masculino', 'Criminal', 'Mediation'),
+(93, '2018-October-23 02:41 pm', '000008', 'Romel Nino Paano', 'Cynthia Masculino', 'Miscellaneous ', 'Pending'),
+(94, '2018-October-23 02:41 pm', '000009', 'Romel Nino Paano', 'Cynthia Masculino', 'Miscellaneous ', 'Mediation'),
+(96, '2018-October-23 02:41 pm', '000010', 'Romel Nino Paano', 'Cynthia Masculino', 'Miscellaneous ', 'Conciliation'),
+(97, '2018-October-23 02:41 pm', '000011', 'Romel Nino Paano', 'Cynthia Masculino', 'Miscellaneous ', 'Conciliation'),
+(98, '2018-October-23 02:42 pm', '000012', 'Romel Nino Paano', 'Cynthia Masculino', 'Miscellaneous ', 'Conciliation'),
+(99, '2018-October-23 02:42 pm', '000013', 'Romel Nino Paano', 'Cynthia Masculino', 'Miscellaneous ', 'Withdrawn')";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"41fb3c78f2aba9cb6dcaf3bc8a887e10";a:8:{s:3:"sql";s:278:"-- --------------------------------------------------------
+
+--
+-- Table structure for table `pending_cases`
+--
+
+CREATE TABLE `pending_cases` (
+  `pending_id` int(15) NOT NULL,
+  `status` varchar(30) NOT NULL,
+  `admin_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"87e7bd6204ce2572a74c011ea813f9ce";a:8:{s:3:"sql";s:908:"--
+-- Dumping data for table `pending_cases`
+--
+
+INSERT INTO `pending_cases` (`pending_id`, `status`, `admin_id`) VALUES
+(56, 'Closed Case', 67),
+(57, 'Closed Case', 68),
+(58, 'Pending Case', 69),
+(59, 'Closed Case', 70),
+(60, 'Closed Case', 71),
+(61, 'Pending Case', 72),
+(62, 'Closed Case', 73),
+(63, 'Pending Case', 74),
+(64, 'Pending Case', 75),
+(65, 'Pending Case', 76),
+(66, 'Pending Case', 77),
+(67, 'Pending Case', 78),
+(68, 'Closed Case', 79),
+(69, 'Closed Case', 80),
+(70, 'Pending Case', 81),
+(71, 'Pending Case', 82),
+(72, 'Closed Case', 83),
+(73, 'Closed Case', 84),
+(74, 'Closed Case', 85),
+(75, 'Closed Case', 86),
+(76, 'Closed Case', 87),
+(78, 'Closed Case', 89),
+(79, 'Pending Case', 90),
+(80, 'Closed Case', 91),
+(81, 'Pending Case', 92),
+(82, 'Pending Case', 93),
+(83, 'Pending Case', 94),
+(85, 'Pending Case', 96),
+(86, 'Closed Case', 97),
+(87, 'Closed Case', 98),
+(88, 'Closed Case', 99)";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"7f1f63c5794b214177052f1af42a5bce";a:8:{s:3:"sql";s:121:"--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`admin_id`)";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"bbbe2d85178bebf71c0bc73d6f18ddfc";a:8:{s:3:"sql";s:138:"--
+-- Indexes for table `pending_cases`
+--
+ALTER TABLE `pending_cases`
+  ADD PRIMARY KEY (`pending_id`),
+  ADD KEY `admin_id` (`admin_id`)";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"c17a9129a2a5c4cc4232a11041a9a169";a:8:{s:3:"sql";s:176:"--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `admin_id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"b3803984835c01d850a3c2c783135e95";a:8:{s:3:"sql";s:150:"--
+-- AUTO_INCREMENT for table `pending_cases`
+--
+ALTER TABLE `pending_cases`
+  MODIFY `pending_id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=89";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"ce134cdbc3cd0e6f8ff52a78483a0d70";a:8:{s:3:"sql";s:211:"--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `pending_cases`
+--
+ALTER TABLE `pending_cases`
+  ADD CONSTRAINT `pending_cases_ibfk_1` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`admin_id`)";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";i:0;s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:7:"case_db";s:13:"table_uiprefs";a:1:{i:1;a:1:{s:8:"crime_db";a:1:{s:5:"admin";a:0:{}}}}s:20:"possible_as_geometry";b:1;}ConfigFile1|a:2:{s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}debug|a:0:{}__upload_status|a:1:{s:7:"handler";s:47:"PhpMyAdmin\Plugins\Import\Upload\UploadNoplugin";}Import_message|a:2:{s:7:"message";s:812:"<div class="error"><h1>Error</h1><p><strong>SQL query:</strong>
+    </p>
+<p>
+<code class="sql"><pre>
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `pending_cases`
+--
+ALTER TABLE `pending_cases`
+  ADD CONSTRAINT `pending_cases_ibfk_1` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`admin_id`)
+</pre></code>
+</p>
+<p>
+    <strong>MySQL said: </strong><a href="./url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.7%2Fen%2Ferror-messages-server.html" target="mysql_doc"><img src="themes/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help" /></a>
+</p>
+<code>#1452 - Cannot add or update a child row: a foreign key constraint fails (`case_db`.`#sql-c3c_79`, CONSTRAINT `pending_cases_ibfk_1` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`admin_id`))</code><br/></div>";s:11:"go_back_url";s:24:"db_import.php?db=case_db";}is_multi_query|b:1;sql_history|a:4:{i:0;a:3:{s:2:"db";s:0:"";s:5:"table";s:0:"";s:8:"sqlquery";s:456:"--
+-- Database: `case_db`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `admin_id` int(15) NOT NULL,
+  `date_time` varchar(25) NOT NULL,
+  `brgycasenumber` varchar(40) NOT NULL,
+  `complainant` varchar(40) NOT NULL,
+  `respondent` varchar(40) NOT NULL,
+  `natureofcase` varchar(40) NOT NULL,
+  `disposition_remarks` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1";}i:1;a:3:{s:2:"db";s:8:"crime_db";s:5:"table";s:0:"";s:8:"sqlquery";s:211:"--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `pending_cases`
+--
+ALTER TABLE `pending_cases`
+  ADD CONSTRAINT `pending_cases_ibfk_1` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`admin_id`)";}i:2;a:3:{s:2:"db";s:8:"crime_db";s:5:"table";s:5:"admin";s:8:"sqlquery";s:21:"SELECT * FROM `admin`";}i:3;a:3:{s:2:"db";s:7:"case_db";s:5:"table";s:0:"";s:8:"sqlquery";s:211:"--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `pending_cases`
+--
+ALTER TABLE `pending_cases`
+  ADD CONSTRAINT `pending_cases_ibfk_1` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`admin_id`)";}}errors|a:0:{}

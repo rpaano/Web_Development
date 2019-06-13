@@ -35,3 +35,78 @@
 8:32:59 PM  [main] 	Deinitializing Modules
 8:32:59 PM  [main] 	Deinitializing Control Panel
 
+11:13:56 PM  [main] 	Initializing Control Panel
+11:13:56 PM  [main] 	Windows Version:  Enterprise  64-bit
+11:13:56 PM  [main] 	XAMPP Version: 7.3.6
+11:13:56 PM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Mar 7th 2019 ]
+11:13:56 PM  [main] 	You are not running with administrator rights! This will work for
+11:13:56 PM  [main] 	most application stuff but whenever you do something with services
+11:13:56 PM  [main] 	there will be a security dialogue or things will break! So think 
+11:13:56 PM  [main] 	about running this application with administrator rights!
+11:13:56 PM  [main] 	XAMPP Installation Directory: "e:\xampp\"
+11:13:56 PM  [main] 	Checking for prerequisites
+11:14:00 PM  [main] 	All prerequisites found
+11:14:00 PM  [main] 	Initializing Modules
+11:14:00 PM  [main] 	Starting Check-Timer
+11:14:00 PM  [main] 	Control Panel Ready
+11:14:17 PM  [Apache] 	Attempting to start Apache app...
+11:14:18 PM  [Apache] 	Status change detected: running
+11:14:18 PM  [mysql] 	Attempting to start MySQL app...
+11:14:20 PM  [mysql] 	Status change detected: running
+11:39:25 PM  [main] 	Deinitializing Modules
+11:39:25 PM  [main] 	Deinitializing Control Panel
+
+1:21:06 AM  [main] 	Initializing Control Panel
+1:21:06 AM  [main] 	Windows Version:  Enterprise  64-bit
+1:21:06 AM  [main] 	XAMPP Version: 7.3.6
+1:21:06 AM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Mar 7th 2019 ]
+1:21:06 AM  [main] 	You are not running with administrator rights! This will work for
+1:21:06 AM  [main] 	most application stuff but whenever you do something with services
+1:21:06 AM  [main] 	there will be a security dialogue or things will break! So think 
+1:21:06 AM  [main] 	about running this application with administrator rights!
+1:21:06 AM  [main] 	XAMPP Installation Directory: "e:\xampp\"
+1:21:06 AM  [main] 	Checking for prerequisites
+1:21:07 AM  [main] 	All prerequisites found
+1:21:07 AM  [main] 	Initializing Modules
+1:21:07 AM  [Apache] 	XAMPP Apache is already running on port 80
+1:21:07 AM  [Apache] 	XAMPP Apache is already running on port 443
+1:21:07 AM  [mysql] 	XAMPP MySQL is already running on port 3306
+1:21:07 AM  [main] 	Starting Check-Timer
+1:21:07 AM  [main] 	Control Panel Ready
+1:21:09 AM  [Apache] 	Attempting to stop Apache (PID: 11848)
+1:21:09 AM  [Apache] 	Attempting to stop Apache (PID: 7184)
+1:21:10 AM  [Apache] 	Status change detected: stopped
+1:21:10 AM  [mysql] 	Attempting to stop MySQL app...
+1:21:10 AM  [mysql] 	Status change detected: stopped
+1:40:07 AM  [Apache] 	Status change detected: running
+1:40:12 AM  [mysql] 	Status change detected: running
+2:24:36 AM  [mysql] 	Status change detected: stopped
+2:24:36 AM  [main] 	Deinitializing Modules
+2:24:36 AM  [main] 	Deinitializing Control Panel
+
+3:59:40 PM  [main] 	Initializing Control Panel
+3:59:40 PM  [main] 	Windows Version:  Enterprise  64-bit
+3:59:40 PM  [main] 	XAMPP Version: 7.3.6
+3:59:40 PM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Mar 7th 2019 ]
+3:59:40 PM  [main] 	You are not running with administrator rights! This will work for
+3:59:40 PM  [main] 	most application stuff but whenever you do something with services
+3:59:40 PM  [main] 	there will be a security dialogue or things will break! So think 
+3:59:40 PM  [main] 	about running this application with administrator rights!
+3:59:40 PM  [main] 	XAMPP Installation Directory: "e:\xampp\"
+3:59:40 PM  [main] 	Checking for prerequisites
+3:59:42 PM  [main] 	All prerequisites found
+3:59:42 PM  [main] 	Initializing Modules
+3:59:42 PM  [main] 	Starting Check-Timer
+3:59:42 PM  [main] 	Control Panel Ready
+3:59:51 PM  [Apache] 	Attempting to start Apache app...
+3:59:51 PM  [Apache] 	Status change detected: running
+3:59:51 PM  [mysql] 	Attempting to start MySQL app...
+3:59:57 PM  [mysql] 	Status change detected: running
+4:14:27 PM  [mysql] 	Attempting to stop MySQL app...
+4:14:27 PM  [mysql] 	Status change detected: stopped
+4:14:27 PM  [Apache] 	Attempting to stop Apache (PID: 728)
+4:14:27 PM  [Apache] 	Attempting to stop Apache (PID: 10440)
+4:14:28 PM  [Apache] 	Status change detected: stopped
+4:14:54 PM  [main] 	Deinitializing Modules
+4:14:54 PM  [main] 	Deinitializing Control Panel
+
